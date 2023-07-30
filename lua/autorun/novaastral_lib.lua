@@ -1,4 +1,4 @@
---This is a lib of easy to use functions made by me (Nova Astral)
+--This is a lib of easy to use functions made by Nova Astral
 
 function NEasyEffect(origin,pos,scale,effectname)
     local effectdata = EffectData()
