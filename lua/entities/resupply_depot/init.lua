@@ -81,7 +81,7 @@ end
 
 function ENT:StartSmoke()
 	local smoke = ents.Create("env_smokestack")
-	smoke:SetPos(self.Entity:GetPos())
+	smoke:SetPos(self.Entity:LocalToWorld(Vector(0,0,50)))
 	smoke:SetAngles(Angle(0,0,0))
 	smoke:SetKeyValue("InitialState","1")
 	smoke:SetKeyValue("WindAngle","0 0 0")
