@@ -1,7 +1,7 @@
 include('shared.lua')
 
-language.Add("Cleanup_vehicle_depot","Vehicle Depot")
-language.Add("Cleaned_vehicle_depot","Cleaned up Vehicle Depot")
+language.Add("Cleanup_Bunker","Bunker")
+language.Add("Cleaned_Bunker","Cleaned up Bunker")
 
 function ENT:Draw()
    self:DrawEntityOutline( 0.0 )

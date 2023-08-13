@@ -1,7 +1,7 @@
 include('shared.lua')
 
-language.Add( "Cleanup_main_base", "Main Base")
-language.Add( "Cleaned_main_base", "Cleaned up Main Base")
+language.Add( "Cleanup_command_center", "Command Center")
+language.Add( "Cleaned_mcommand_center", "Cleaned up Command Center")
 
 function ENT:Draw()
    self:DrawEntityOutline( 0.0 )
